@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read Blog</title>
+    <!-- daisyUI from CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+        .lexend {
+          font-family: "Lexend", system-ui;
+        }
+      </style>
+</head>
+<body class="lexend">
+    <!-- navbar section  -->
+    <nav class="bg-orange-50 sticky top-0 z-10">
+      <div class="container mx-auto px-4 py-6 flex justify-between">
+        <div>
+          <a href="index.html"><button id="home" class="btn bg-lime-300 font-extrabold lg:text-xl">
+            Home
+          </button></a>
+        </div>
+        <div class="flex items-center">
+          <img src="assets/logo.png" alt="logo png" />
+          <p class="font-semibold px-2 lg:text-2xl">
+            Save Bangladesh by Donating
+          </p>
+        </div>
+        <div class="flex flex-col lg:flex-row items-center">
+          <img src="assets/coin.png" alt="coin png" />
+          <p class="px-2 text-gray-500 font-semibold lg:text-xl">5500</p>
+          <p class="text-gray-600 font-bold lg:text-xl">BDT</p>
+        </div>
+      </div>
+    </nav>
+    <script src="js/home.js"></script>
+</body>
+</html>
