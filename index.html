@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Save Bangladesh</title>
+    <!-- daisyUI from CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .lexend {
+        font-family: "Lexend", system-ui;
+      }
+    </style>
+  </head>
+  <body class="lexend">
+    <!-- navbar section  -->
+    <nav class="bg-orange-50">
+     <div class="container mx-auto px-4 py-6  flex justify-between">
+        <div>
+            <button class="btn bg-lime-300 font-extrabold lg:text-xl">Blog</button>
+          </div>
+          <div class="flex items-center">
+            <img src="assets/logo.png" alt="logo png" />
+            <p class="font-semibold px-2 lg:text-2xl">Save Bangladesh by Donating</p>
+          </div>
+          <div class="flex flex-col lg:flex-row items-center">
+            <img src="assets/coin.png" alt="coin png" />
+            <p class="px-2 text-gray-500 font-semibold lg:text-xl">1000</p>
+            <p class="text-gray-600 font-bold lg:text-xl">BDT</p>
+          </div>
+     </div>
+    </nav>
+    <!-- feature button section -->
+    <div class="container mx-auto flex justify-center py-8">
+      <button class="btn bg-lime-300 font-bold mx-2">Donation</button>
+      <button class="btn font-bold mx-2">History</button>
+    </div>
+    <!-- card1 -->
+    <div
+      class="container mx-auto flex lg:flex-row justify-between card bg-base-100 shadow-xl p-8"
+    >
+      <div>
+        <div class="p-8">
+          <img
+            src="assets/noakhali.png"
+            alt="Donate for Flood at Noakhali"
+          />
+        </div>
+      </div>
+
+      <div class="flex-1 flex flex-col justify-between p-8 space-y-4">
+        <div>
+          <button class="btn"><img src="assets/coin.png" alt="coin png" />
+            <p class="px-2 text-gray-500 font-semibold">1000</p>
+            <p class="text-gray-600 font-semibold ">BDT</p></button>
+        </div>
+        <div>
+          <h2 class="text-2xl font-bold">
+            Donate for Flood at Noakhali, Bangladesh
+          </h2>
+          <p>
+            Your donation can ensure that impacted communities can recover and
+            rebuild their lives with dignity and hope by helping to give
+            emergency aid, repair houses, and restore livelihoods for those who
+            are most vulnerable. Each contribution has the potential to
+            significantly lessen their pain and aid in their long-term
+            rehabilitation.
+          </p>
+        </div>
+        <div>
+            <input type="text" placeholder="Write Donation Amount" class="input input-bordered w-full " />
+        </div>
+        <div>
+          <button class="btn w-full bg-lime-300">Donate Now</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
