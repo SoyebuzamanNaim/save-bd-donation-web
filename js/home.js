@@ -61,8 +61,10 @@ document.getElementById("card1-btn").addEventListener("click", function () {
     mainBalance - donationAmount;
   document.getElementById("card1-balance").innerText =
     donationBalance + donationAmount;
+    document.getElementById("pop-congo").querySelector("div").classList.add("top-[25rem]");
 
-  document.getElementById("pop-congo").classList.remove("hidden").add("flex");
+
+  document.getElementById("pop-congo").classList.remove("hidden");
 });
 
 // for card2
@@ -87,8 +89,10 @@ document.getElementById("card2-btn").addEventListener("click", function () {
     mainBalance - donationAmount;
   document.getElementById("card2-balance").innerText =
     donationBalance + donationAmount;
+    document.getElementById("pop-congo").querySelector("div").classList.add("top-[75rem]");
 
   document.getElementById("pop-congo").classList.remove("hidden");
+ 
 });
 
 // for card3
@@ -114,8 +118,9 @@ document.getElementById("card3-btn").addEventListener("click", function () {
     mainBalance - donationAmount;
   document.getElementById("card3-balance").innerText =
     donationBalance + donationAmount;
+    document.getElementById("pop-congo").classList.remove("hidden");
+    document.getElementById("pop-congo").querySelector("div").classList.add("top-[114rem]");
 
-  document.getElementById("pop-congo").classList.remove("hidden");
 });
 
 document
