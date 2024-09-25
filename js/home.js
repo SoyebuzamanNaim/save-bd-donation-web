@@ -50,8 +50,8 @@ document.getElementById("card1-btn").addEventListener("click", function () {
   para.innerHTML = `<div
         class="container mx-auto rounded outline outline-gray-300 shadow-xl my-6 font-bold p-7 space-y-5"
       >
-        <p> ${donationAmount} Taka is Donated for Injured People in Quota Movement, Bangladesh <br>
-    ${date} 
+        <p> ${donationAmount} Taka is Donated for Injured People in Quota Movement, Bangladesh </p>
+   <p class="rounded-md bg-slate-50 p-3"> ${date} 
     </p>
       </div>`;
   document.getElementById("history-section").appendChild(para);
@@ -76,8 +76,8 @@ document.getElementById("card2-btn").addEventListener("click", function () {
   para.innerHTML = `<div
         class="container mx-auto rounded outline outline-gray-300 shadow-xl my-6 font-bold p-7 space-y-5"
       >
-        <p> ${donationAmount} Taka is Donated for Injured People in Quota Movement, Bangladesh <br>
-    ${date} 
+        <p> ${donationAmount} Taka is Donated for Injured People in Quota Movement, Bangladesh </p>
+   <p class="rounded-md bg-slate-50 p-3"> ${date} 
     </p>
       </div>`;
   document.getElementById("history-section").appendChild(para);
@@ -102,8 +102,8 @@ document.getElementById("card3-btn").addEventListener("click", function () {
   para.innerHTML = `<div
         class="container mx-auto rounded outline outline-gray-300 shadow-xl my-6 font-bold p-7 space-y-5"
       >
-        <p> ${donationAmount} Taka is Donated for Injured People in Quota Movement, Bangladesh <br>
-    ${date} 
+        <p> ${donationAmount} Taka is Donated for Injured People in Quota Movement, Bangladesh </p>
+   <p class="rounded-md bg-slate-50 p-3"> ${date} 
     </p>
       </div>`;
   document.getElementById("history-section").appendChild(para);
