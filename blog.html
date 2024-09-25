@@ -47,9 +47,38 @@
         </div>
       </div>
     </nav>
-    <main>
-      <div class="container">
+    <!-- FAQ section  -->
+    <main class="container mx-auto">
+      <div >
         <h1 class="text-3xl font-bold">Important FAQ </h1>
+      </div>
+      <div class="collapse collapse-arrow bg-base-200">
+        <input type="radio" name="my-accordion-2" checked="checked" />
+        <div class="collapse-title text-xl font-medium">What is the Document Object Model(DOM)?</div>
+        <div class="collapse-content">
+          <p>Web documents are represented as a tree structure of objects by the Document Object Model (DOM), a programming interface. It gives scripts—mainly JavaScript—the ability to dynamically alter HTML and XML elements. This lets developers adjust the elements' content, structure, and styles as well as react instantly to user input.</p>
+        </div>
+      </div>
+      <div class="collapse collapse-arrow bg-base-200">
+        <input type="radio" name="my-accordion-2" />
+        <div class="collapse-title text-xl font-medium">How do you select an element from the DOM?</div>
+        <div class="collapse-content">
+          <p>Use methods like document to choose an element from the DOM.For elements by ID, document, use getElementById('id').For class-based selection, use getElementsByClassName('className'), or document.For more intricate CSS-style selections, use querySelector('selector'). You can directly manipulate the selected items with these techniques.</p>
+        </div>
+      </div>
+      <div class="collapse collapse-arrow bg-base-200">
+        <input type="radio" name="my-accordion-2" />
+        <div class="collapse-title text-xl font-medium">What is the event delegation in the context of the DOM, and why it is useful?</div>
+        <div class="collapse-content">
+          <p>In the DOM, event delegation is the process of adding a single event listener to a parent element as opposed to separate listeners for every child element. The listener can control events for all child elements when an event happens since it propagates (bubbles) up to the parent element. This method makes code management easier, uses less memory, and performs better—especially in dynamic applications where child elements may be added or withdrawn often.</p>
+        </div>
+      </div>
+      <div class="collapse collapse-arrow bg-base-200">
+        <input type="radio" name="my-accordion-2" />
+        <div class="collapse-title text-xl font-medium">How do you manipulate an element's attributes and styles using the DOM?</div>
+        <div class="collapse-content">
+          <p>To manipulate an element's attributes and styles using the DOM, use the setAttribute() method for attributes (e.g., element.setAttribute('src', 'image.png')) and the style property for styles (e.g., element.style.backgroundColor = 'blue'). I can also use classList.add() or classList.remove() to manage CSS classes dynamically. These methods allow for real-time updates to the element's appearance and behavior. </p>
+        </div>
       </div>
     </main>
     <script src="js/home.js"></script>
